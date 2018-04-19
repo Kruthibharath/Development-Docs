@@ -1,0 +1,86 @@
+Which image format is the best one for icons and logos ? SVG format has great icon size characteristics, and what’s more important, it doesn’t lose quality at image resize. 
+This makes it perfect for creating social and interface icons and website logos. Then comes PNG, with its transparency, availability and processing ease make it a good choice 
+for adding icons or logos to a website. [ Ref. elfsight]                                                                                                                                                                                
+
+
+There are two types of graphic images: raster and vector.
+
+Raster : Raster file formats store data related to each individual pixel e.g. JPEG, PNG.
+Vector : Vector images store data as a geometric description. 
+
+/*************************************************************************  SVG format  ********************************************************************************************************/
+SVG (Scalable Vector Graphics) : This is a graphics markup language that is used to depict 2D graphics and combined vector and bit image graphics in XML format.                                                                              
+
+
+You can make any part of the image larger without losing in image quality;
+The more small details there are, the faster grows the SVG data volume;
+Text in SVG graphics is actually text, and not an image, so it can be copied and indexed by search engines;
+You can only create simple objects that can be described with simple figures;
+You can manage element display (color, size, proportions, etc.) with the help of CSS; elements can be managed with JavaScript, creating dynamic and interactive graphics.
+Older browsers might not support the SVG format.
+
+
+
+Conclusion: Due to its properties, this format has become popular for icons and logos: the images in SVG format can be compressed and stretched without the loss of quality,
+so it would be enough to create one set of icons for different size devices. However, these advantages limit the opportunity of creating large and complicated images in this format.
+
+/*************************************************************************  PNG format  ********************************************************************************************************/
+PNG (portable network graphics) : Bitmap format of storing graphic data that uses the Deflate algorithm for lossless contraction.
+
+
+Minimal loss of quality during compression;
+Not meant to effectively compress large-area images.
+Virtually unlimited number of colors in an image;
+Doesn’t support animation;
+Relatively small file size; and Compatible with all browsers.
+
+It supports alpha-transparency, can overlay an image on a background.
+
+
+Conclusion: PNG is a good format for image editing and for storing mid-stage edits, as the recovery and re-saving of images are performed without the loss of quality.
+Its transparency, availability and processing ease make it a good choice for adding icons or logos to a website.
+
+/************************************************************************* JPEG format  ********************************************************************************************************/
+JPEG (Joint Photographic Experts Group): The popular raster graphic formats that is used to store photos and similar images. The following extensions also belong to JPEG format: jpg, jfif, jpe.
+
+High compression ratio; can choose the quality/size ratio;
+Artifacts appear after compression; not scalable.
+Small file size.
+Doesn’t support transparency;
+Compatible with all browsers;
+Each re-saving diminishes the image quality.
+
+
+
+Conclusion: JPEG is perfect for processing and storing full color pictures with large or realistic images (background images, photos) that have frequent color and brightness gradients.
+The lack of transparency makes it practically useless for logos and icons.
+
+Example
+ 
+
+JPG: size – 5,38 KB, resolution – 40×40;
+PNG: size – 6,22 KB, resolution – 40×40;
+SVG: size – 9,77 KB, resolution – 40×40.
+Comment:
+
+With the default sizes we can see that the difference in quality is insignificant, the main difference is the image size.
+
+100% icon scaling up
+
+
+JPG: size – 10,8 KB, resolution – 80×80;
+PNG: size – 13,9 KB, resolution – 80×80;
+SVG: size – 9,77 KB, resolution – 80×80.
+Comment:
+
+Sizing up the image by 100% leads to a rapid quality decrease for PNG and JPG icons.
+
+300% icon scaling up
+
+
+JPG: size – 17,4 KB, resolution – 160×160;
+PNG: size – 24,5 KB, resolution – 160×160;
+SVG: size – 9,77 KB, resolution – 160×160.
+Comment:
+
+Sizing up the icon size by 4 times further decreases the image quality in PNG and JPG format. Also, due to PNG format algorithms, we see the most significant increase in size.
